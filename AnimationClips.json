@@ -1,0 +1,1091 @@
+[
+    {
+        "Name": "Front_SmellAir",
+        "startTime": 6895,
+        "endTime": 7416,
+        "length": 521,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_To_Right",
+        "startTime": 19629,
+        "endTime": 19742,
+        "length": 113,
+        "position": 0,
+        "targetPosition": 2,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_Sleepy",
+        "startTime": 6100,
+        "endTime": 6773,
+        "length": 673,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Shy_Transition_A",
+        "startTime": 16070,
+        "endTime": 16131,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Panting_Transition_B",
+        "startTime": 24174,
+        "endTime": 24235,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Still_Transition_A",
+        "startTime": 8830,
+        "endTime": 8891,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleC_Transition_A",
+        "startTime": 11873,
+        "endTime": 11934,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Obedient",
+        "startTime": 1852,
+        "endTime": 3101,
+        "length": 1249,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Obedient_Transition_A",
+        "startTime": 23196,
+        "endTime": 23257,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Shy_Transition_C",
+        "startTime": 6039,
+        "endTime": 6100,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_To_Right_B",
+        "startTime": 9832,
+        "endTime": 9961,
+        "length": 129,
+        "position": 1,
+        "targetPosition": 2,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_To_Left",
+        "startTime": 9385,
+        "endTime": 9458,
+        "length": 73,
+        "position": 1,
+        "targetPosition": 0,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_ShakeHead_Transition_A",
+        "startTime": 4461,
+        "endTime": 4522,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleC",
+        "startTime": 11220,
+        "endTime": 11873,
+        "length": 653,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_SmellAir_Transition_A",
+        "startTime": 7416,
+        "endTime": 7477,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_TasteAir_Tansition_A",
+        "startTime": 29376,
+        "endTime": 29437,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleA",
+        "startTime": 10140,
+        "endTime": 10439,
+        "length": 299,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_TasteAir",
+        "startTime": 18991,
+        "endTime": 19426,
+        "length": 435,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Still",
+        "startTime": 18479,
+        "endTime": 18930,
+        "length": 451,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Shy_Transition_C",
+        "startTime": 16192,
+        "endTime": 16253,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_IdleB_Transition_A",
+        "startTime": 957,
+        "endTime": 1018,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Obedient_Transition_C",
+        "startTime": 13368,
+        "endTime": 13429,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Sleepy_Transition_A",
+        "startTime": 6773,
+        "endTime": 6834,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Obedient_Transition_D",
+        "startTime": 3284,
+        "endTime": 3345,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Obedient",
+        "startTime": 11995,
+        "endTime": 13246,
+        "length": 1251,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Obedient_Transition_C",
+        "startTime": 23318,
+        "endTime": 23379,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Stare",
+        "startTime": 7538,
+        "endTime": 8259,
+        "length": 721,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Panting_Transition_A",
+        "startTime": 14163,
+        "endTime": 14224,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Shuffle",
+        "startTime": 24621,
+        "endTime": 24996,
+        "length": 375,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Yawn",
+        "startTime": 29967,
+        "endTime": 30148,
+        "length": 181,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Shy",
+        "startTime": 15107,
+        "endTime": 16070,
+        "length": 963,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_To_Front_B",
+        "startTime": 19560,
+        "endTime": 19629,
+        "length": 69,
+        "position": 0,
+        "targetPosition": 1,
+        "isTransition": true
+    },
+    {
+        "Name": "Left_Stare_Transition_A",
+        "startTime": 18357,
+        "endTime": 18418,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Sleepy",
+        "startTime": 26203,
+        "endTime": 26878,
+        "length": 675,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleB_Transition_A",
+        "startTime": 21048,
+        "endTime": 21109,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_To_Front",
+        "startTime": 19487,
+        "endTime": 19560,
+        "length": 73,
+        "position": 0,
+        "targetPosition": 1,
+        "isTransition": true
+    },
+    {
+        "Name": "Right_Stare",
+        "startTime": 27584,
+        "endTime": 28307,
+        "length": 723,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Sleepy",
+        "startTime": 16253,
+        "endTime": 16928,
+        "length": 675,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Shy_Transition_C",
+        "startTime": 26142,
+        "endTime": 26203,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_To_Front_B",
+        "startTime": 29510,
+        "endTime": 29677,
+        "length": 167,
+        "position": 2,
+        "targetPosition": 1,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_IdleC_Transition_B",
+        "startTime": 1791,
+        "endTime": 1852,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Obedient_Transition_B",
+        "startTime": 13307,
+        "endTime": 13368,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Shy_Transition_A",
+        "startTime": 5917,
+        "endTime": 5978,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Obedient_Transition_A",
+        "startTime": 13246,
+        "endTime": 13307,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Panting",
+        "startTime": 23440,
+        "endTime": 24113,
+        "length": 673,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_ShakeHead",
+        "startTime": 4138,
+        "endTime": 4461,
+        "length": 323,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Still",
+        "startTime": 28429,
+        "endTime": 28880,
+        "length": 451,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_SmellAir_Transition_A",
+        "startTime": 17573,
+        "endTime": 17634,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleC",
+        "startTime": 21170,
+        "endTime": 21823,
+        "length": 653,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Still_Transition_A",
+        "startTime": 28880,
+        "endTime": 28941,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_IdleB",
+        "startTime": 300,
+        "endTime": 957,
+        "length": 657,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Shuffle",
+        "startTime": 14671,
+        "endTime": 15046,
+        "length": 375,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleB_Transition_A",
+        "startTime": 11098,
+        "endTime": 11159,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Obedient_Transition_C",
+        "startTime": 3223,
+        "endTime": 3284,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Stare_Transition_A",
+        "startTime": 8259,
+        "endTime": 8320,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Still_Transition_A",
+        "startTime": 18930,
+        "endTime": 18991,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Sleepy_Transition_A",
+        "startTime": 16928,
+        "endTime": 16989,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Still",
+        "startTime": 8381,
+        "endTime": 8830,
+        "length": 449,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Panting_Transition_A",
+        "startTime": 24113,
+        "endTime": 24174,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Stare_Transition_B",
+        "startTime": 28368,
+        "endTime": 28429,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Shuffle_Transition_A",
+        "startTime": 15046,
+        "endTime": 15107,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_SmellAir_Transition_B",
+        "startTime": 7477,
+        "endTime": 7538,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_ShakeHead",
+        "startTime": 14285,
+        "endTime": 14610,
+        "length": 325,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_IdleC_Transition_A",
+        "startTime": 1730,
+        "endTime": 1791,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_To_Right_B",
+        "startTime": 19742,
+        "endTime": 19909,
+        "length": 167,
+        "position": 0,
+        "targetPosition": 2,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_Panting_Transition_B",
+        "startTime": 4077,
+        "endTime": 4138,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_To_Left",
+        "startTime": 29677,
+        "endTime": 29818,
+        "length": 141,
+        "position": 2,
+        "targetPosition": 0,
+        "isTransition": true
+    },
+    {
+        "Name": "Left_Panting",
+        "startTime": 13490,
+        "endTime": 14163,
+        "length": 673,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Shy_Transition_B",
+        "startTime": 26081,
+        "endTime": 26142,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleB",
+        "startTime": 20389,
+        "endTime": 21048,
+        "length": 659,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleC_Transition_B",
+        "startTime": 21884,
+        "endTime": 21945,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Stare",
+        "startTime": 17634,
+        "endTime": 18357,
+        "length": 723,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_SmellAir_Transition_A",
+        "startTime": 27523,
+        "endTime": 27584,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_IdleA",
+        "startTime": 1,
+        "endTime": 300,
+        "length": 299,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Sleepy_Transition_A",
+        "startTime": 26878,
+        "endTime": 26939,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_To_Left_B",
+        "startTime": 29818,
+        "endTime": 29967,
+        "length": 149,
+        "position": 2,
+        "targetPosition": 0,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_Shy",
+        "startTime": 4956,
+        "endTime": 5917,
+        "length": 961,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleB",
+        "startTime": 10439,
+        "endTime": 11098,
+        "length": 659,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Shuffle_Transition_A",
+        "startTime": 24996,
+        "endTime": 25057,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Obedient_Transition_B",
+        "startTime": 3162,
+        "endTime": 3223,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Shuffle_Transition_A",
+        "startTime": 4895,
+        "endTime": 4956,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Obedient",
+        "startTime": 21945,
+        "endTime": 23196,
+        "length": 1251,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleB_Transition_B",
+        "startTime": 11159,
+        "endTime": 11220,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_SmellAir",
+        "startTime": 17050,
+        "endTime": 17573,
+        "length": 523,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Shy_Transition_B",
+        "startTime": 16131,
+        "endTime": 16192,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Obedient_Transition_B",
+        "startTime": 23257,
+        "endTime": 23318,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Stare_Transition_A",
+        "startTime": 28307,
+        "endTime": 28368,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_TasteAir_Tansition_A",
+        "startTime": 19426,
+        "endTime": 19487,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_IdleC",
+        "startTime": 1079,
+        "endTime": 1730,
+        "length": 651,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleB_Transition_B",
+        "startTime": 21109,
+        "endTime": 21170,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_ShakeHead_Transition_A",
+        "startTime": 24560,
+        "endTime": 24621,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Panting_Transition_A",
+        "startTime": 4016,
+        "endTime": 4077,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_TasteAir",
+        "startTime": 8891,
+        "endTime": 9324,
+        "length": 433,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_TasteAir",
+        "startTime": 28941,
+        "endTime": 29376,
+        "length": 435,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_IdleC_Transition_B",
+        "startTime": 11934,
+        "endTime": 11995,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleC_Transition_A",
+        "startTime": 21823,
+        "endTime": 21884,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Stare_Transition_B",
+        "startTime": 8320,
+        "endTime": 8381,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Obedient_Transition_D",
+        "startTime": 13429,
+        "endTime": 13490,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_ShakeHead",
+        "startTime": 24235,
+        "endTime": 24560,
+        "length": 325,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_To_Left_B",
+        "startTime": 9458,
+        "endTime": 9759,
+        "length": 301,
+        "position": 1,
+        "targetPosition": 0,
+        "isTransition": true
+    },
+    {
+        "Name": "Left_ShakeHead_Transition_A",
+        "startTime": 14610,
+        "endTime": 14671,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Obedient_Transition_A",
+        "startTime": 3101,
+        "endTime": 3162,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_To_Right",
+        "startTime": 9759,
+        "endTime": 9832,
+        "length": 73,
+        "position": 1,
+        "targetPosition": 2,
+        "isTransition": true
+    },
+    {
+        "Name": "Left_Yawn",
+        "startTime": 19909,
+        "endTime": 20090,
+        "length": 181,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Panting_Transition_B",
+        "startTime": 14224,
+        "endTime": 14285,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_To_Front",
+        "startTime": 29437,
+        "endTime": 29510,
+        "length": 73,
+        "position": 2,
+        "targetPosition": 1,
+        "isTransition": true
+    },
+    {
+        "Name": "Front_TasteAir_Tansition_A",
+        "startTime": 9324,
+        "endTime": 9385,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Shuffle",
+        "startTime": 4522,
+        "endTime": 4895,
+        "length": 373,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Shy",
+        "startTime": 25057,
+        "endTime": 26020,
+        "length": 963,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Sleepy_Transition_B",
+        "startTime": 16989,
+        "endTime": 17050,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Left_Stare_Transition_B",
+        "startTime": 18418,
+        "endTime": 18479,
+        "length": 61,
+        "position": 0,
+        "targetPosition": 0,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Sleepy_Transition_B",
+        "startTime": 26939,
+        "endTime": 27000,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Yawn",
+        "startTime": 9961,
+        "endTime": 10140,
+        "length": 179,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Sleepy_Transition_B",
+        "startTime": 6834,
+        "endTime": 6895,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_SmellAir",
+        "startTime": 27000,
+        "endTime": 27523,
+        "length": 523,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_IdleB_Transition_B",
+        "startTime": 1018,
+        "endTime": 1079,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Shy_Transition_A",
+        "startTime": 26020,
+        "endTime": 26081,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Shy_Transition_B",
+        "startTime": 5978,
+        "endTime": 6039,
+        "length": 61,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_IdleA",
+        "startTime": 20090,
+        "endTime": 20389,
+        "length": 299,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Right_Obedient_Transition_D",
+        "startTime": 23379,
+        "endTime": 23440,
+        "length": 61,
+        "position": 2,
+        "targetPosition": 2,
+        "isTransition": false
+    },
+    {
+        "Name": "Front_Panting",
+        "startTime": 3345,
+        "endTime": 4016,
+        "length": 671,
+        "position": 1,
+        "targetPosition": 1,
+        "isTransition": false
+    }
+]
