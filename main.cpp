@@ -8,10 +8,10 @@
 
 
 // gst-launch-1.0 filesrc location=/home/william/Projects/videoPlayer/bear_mjpeg.mov ! qtdemux ! videorate ! jpegdec ! autovideosink
-
+//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
 
 StateMachine stateMachine;
-gint fps = 30;
+gint fps = 60;
 //int ms = int(float(1./fps) * 1000);
 
 static gboolean on_message(GstBus *bus, GstMessage *message, gpointer user_data) {
@@ -36,11 +36,19 @@ static gboolean on_message(GstBus *bus, GstMessage *message, gpointer user_data)
     return TRUE;
 }
 
+//This is for linking qtdemuxer to jpeg decoder, once it needs a frame decoding.
+static void on_pad_added (GstElement *element, GstPad *pad, gpointer data){
+    GstPad *sinkpad;
+    GstElement *decoder = (GstElement *) data;
+    /* We can now link this pad with the vorbis-decoder sink pad */
+    g_print ("Dynamic pad created, linking demuxer/decoder\n");
+    sinkpad = gst_element_get_static_pad (decoder, "sink");
+    gst_pad_link (pad, sinkpad);
+    gst_object_unref (sinkpad);
+}
+
+
 static void seek_to_time (GstElement *pipeline, gint64 time_nanoseconds){
-//    gst_element_seek_simple(pipeline, GST_FORMAT_TIME, GST_SEEK_FLAG_FLUSH, time_nanoseconds);
-
-//  if (!gst_element_seek_simple(pipeline, GST_FORMAT_TIME, GST_SEEK_FLAG_FLUSH, time_nanoseconds)){
-
   if (!gst_element_seek (pipeline, 1.0, GST_FORMAT_TIME, GST_SEEK_FLAG_FLUSH,
                          GST_SEEK_TYPE_SET, time_nanoseconds,
                          GST_SEEK_TYPE_NONE, GST_CLOCK_TIME_NONE)) {
@@ -55,6 +63,7 @@ static void seek_to_frame(GstElement *pipeline, int frame_number, int frame_rate
                                             GST_SEEK_TYPE_NONE, GST_CLOCK_TIME_NONE);
 
   gst_element_send_event(pipeline, seek_event);
+  std::cout << "seeking to time_ns: " << position_ns  << std::endl;
 }
 
 bool init = true;
@@ -64,34 +73,28 @@ static gboolean query_position(GstElement *pipeline){
     if(gst_element_query_position(pipeline, GST_FORMAT_TIME, &pos)){
 
         gint64 frame = pos / (GST_SECOND / fps);
-        std::cout << frame << std::endl;
+//        std::cout << frame << std::endl;
 
+        // First Run
         if(init){
-//            seek_to_time(pipeline, stateMachine.currentState.startTime);
             seek_to_frame(pipeline, stateMachine.currentState.startTime, fps);
             init = false;
+            return TRUE;
         }
 
         if(frame >=stateMachine.currentState.endTime){
+            std::cout << "end of clip: " << stateMachine.currentState.name << ": " << frame << std::endl;
+            std::cout << std::endl;
             stateMachine.currentState = stateMachine.getNextState();
-//            seek_to_time(pipeline, stateMachine.currentState.startTime);
+            std::cout << "next state: " << stateMachine.currentState.name << std::endl;
             seek_to_frame(pipeline, stateMachine.currentState.startTime, fps);
+            std::cout << "seeking to frame: " << stateMachine.currentState.startTime << std::endl;
         }
     }
     return TRUE;
 
 }
 
-//This is for linking qtdemuxer to jpeg decoder, once it needs a frame decoding.
-static void on_pad_added (GstElement *element, GstPad *pad, gpointer data){
-    GstPad *sinkpad;
-    GstElement *decoder = (GstElement *) data;
-    /* We can now link this pad with the vorbis-decoder sink pad */
-    g_print ("Dynamic pad created, linking demuxer/decoder\n");
-    sinkpad = gst_element_get_static_pad (decoder, "sink");
-    gst_pad_link (pad, sinkpad);
-    gst_object_unref (sinkpad);
-}
 
 //#define GST_VERBOSE 1
 int main(int argc, char *argv[]) {
@@ -140,9 +143,6 @@ int main(int argc, char *argv[]) {
     g_signal_connect(bus, "message", G_CALLBACK(on_message), loop);
 
     gst_element_set_state(pipeline, GST_STATE_PLAYING);
-
-//    seek_to_time(pipeline, 0);
-//    gst_element_set_state(pipeline, GST_STATE_PAUSED);
 
     g_timeout_add(1.0, (GSourceFunc) query_position, pipeline);     //1.0 is a Gst clock
     g_main_loop_run(loop);

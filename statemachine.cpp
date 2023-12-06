@@ -64,7 +64,7 @@ StateMachine::State StateMachine::getNextState(){
             }
         }
     }
-    std::cout << "next state! It is: " << _nextState.name << std::endl;
+
     return _nextState;
 }
 
